@@ -1,0 +1,7 @@
+[ 2026-07-12 11:37:06,920 ] INFO - numexpr.utils - NumExpr defaulting to 8 threads.
+[ 2026-07-12 11:37:15,285 ] INFO - root - Data ingestion started
+[ 2026-07-12 11:37:15,296 ] INFO - root - loaded raw data
+[ 2026-07-12 11:37:15,298 ] INFO - root - saved raw data
+[ 2026-07-12 11:37:15,299 ] INFO - root - train test split completed
+[ 2026-07-12 11:37:15,301 ] INFO - root - saved train data
+[ 2026-07-12 11:37:15,302 ] INFO - root - saved test data
