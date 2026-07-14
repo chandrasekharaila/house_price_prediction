@@ -8,4 +8,5 @@ ipykernel
 fastapi
 pydantic
 uvicorn
+xgboost
 -e .

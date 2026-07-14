@@ -13,6 +13,7 @@ Requires-Dist: ipykernel
 Requires-Dist: fastapi
 Requires-Dist: pydantic
 Requires-Dist: uvicorn
+Requires-Dist: xgboost
 Dynamic: author
 Dynamic: license-file
 Dynamic: requires-dist
