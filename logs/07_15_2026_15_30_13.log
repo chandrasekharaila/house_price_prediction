@@ -1,0 +1,41 @@
+[ 2026-07-15 15:30:15,154 ] INFO - root - training pipeline started
+[ 2026-07-15 15:30:15,154 ] INFO - root - data ingestion started
+[ 2026-07-15 15:30:15,160 ] INFO - root - dataset loaded
+[ 2026-07-15 15:30:15,163 ] INFO - root - raw dataset saved
+[ 2026-07-15 15:30:15,166 ] INFO - root - train test split is done
+[ 2026-07-15 15:30:15,168 ] INFO - root - train csv saved
+[ 2026-07-15 15:30:15,168 ] INFO - root - test csv saved
+[ 2026-07-15 15:30:15,168 ] INFO - root - data ingestion completed
+[ 2026-07-15 15:30:15,168 ] INFO - root - Started data transformation
+[ 2026-07-15 15:30:15,169 ] INFO - root - Loaded train data
+[ 2026-07-15 15:30:15,169 ] INFO - root - Loaded test data
+[ 2026-07-15 15:30:15,171 ] INFO - root - X and y split done for train data
+[ 2026-07-15 15:30:15,171 ] INFO - root - X and y split done for test data
+[ 2026-07-15 15:30:15,171 ] INFO - root - started creating preprocessor object
+[ 2026-07-15 15:30:15,171 ] INFO - root - completed creating preprocessor object
+[ 2026-07-15 15:30:15,189 ] INFO - root - data transformation done
+[ 2026-07-15 15:30:15,190 ] INFO - root - saved the preprocessor
+[ 2026-07-15 15:30:15,190 ] INFO - root - data transformation completed
+[ 2026-07-15 15:30:15,190 ] INFO - root - started training the model
+[ 2026-07-15 15:30:15,190 ] INFO - root - features and target split done
+[ 2026-07-15 15:30:15,190 ] INFO - root - Started evaluating the models
+[ 2026-07-15 15:30:15,190 ] INFO - root - started training Linear Regression
+[ 2026-07-15 15:30:15,198 ] INFO - root - fcompleted training {model_name} with score {r2:.4f}
+[ 2026-07-15 15:30:15,198 ] INFO - root - started training Decision Tree
+[ 2026-07-15 15:30:15,200 ] INFO - root - fcompleted training {model_name} with score {r2:.4f}
+[ 2026-07-15 15:30:15,200 ] INFO - root - started training Random Forest
+[ 2026-07-15 15:30:15,306 ] INFO - root - fcompleted training {model_name} with score {r2:.4f}
+[ 2026-07-15 15:30:15,306 ] INFO - root - started training Gradient Boost
+[ 2026-07-15 15:30:15,357 ] INFO - root - fcompleted training {model_name} with score {r2:.4f}
+[ 2026-07-15 15:30:15,357 ] INFO - root - started training Xgboost
+[ 2026-07-15 15:30:15,490 ] INFO - root - fcompleted training {model_name} with score {r2:.4f}
+[ 2026-07-15 15:30:15,490 ] INFO - root - Completed evaluating all models.
+[ 2026-07-15 15:30:15,490 ] INFO - root - Model Performance
+[ 2026-07-15 15:30:15,490 ] INFO - root - model-Linear Regression: score-0.6529
+[ 2026-07-15 15:30:15,490 ] INFO - root - model-Decision Tree: score-0.4285
+[ 2026-07-15 15:30:15,490 ] INFO - root - model-Random Forest: score-0.6101
+[ 2026-07-15 15:30:15,490 ] INFO - root - model-Gradient Boost: score-0.6658
+[ 2026-07-15 15:30:15,490 ] INFO - root - model-Xgboost: score-0.5909
+[ 2026-07-15 15:30:15,490 ] INFO - root - best model - Gradient Boost, best model score - 0.6657878733419493
+[ 2026-07-15 15:30:15,492 ] INFO - root - model training completed
+[ 2026-07-15 15:30:15,492 ] INFO - root - training pipeline completed
