@@ -1,7 +1,0 @@
-[ 2026-07-12 09:36:30,316 ] INFO - root - obj saved successfully
-[ 2026-07-12 09:36:30,316 ] INFO - root - failed to load obj
-[ 2026-07-12 09:36:30,316 ] ERROR - root - Error occured in file - /Users/tarun/Products/house_price_prediction/house_price_prediction/main.py
-Error occured in linenum - 22
-Error message - Error occured in file - /Users/tarun/Products/house_price_prediction/house_price_prediction/src/utils.py
-Error occured in linenum - 16
-Error message - [Errno 2] No such file or directory: '/Users/tarun/Products/house_price_prediction/house_price_prediction/artifacts/sample_file.pkl'

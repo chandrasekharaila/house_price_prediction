@@ -1,7 +1,0 @@
-[ 2026-07-15 15:30:33,556 ] INFO - root - Created prediction DataFrame.
-[ 2026-07-15 15:30:33,556 ] INFO - root - started prediction pipeline
-[ 2026-07-15 15:30:33,556 ] INFO - root - loading preprocessor
-[ 2026-07-15 15:30:33,654 ] INFO - root - loading model
-[ 2026-07-15 15:30:33,723 ] INFO - root - transformed features
-[ 2026-07-15 15:30:33,737 ] INFO - root - making prediction
-[ 2026-07-15 15:30:33,737 ] INFO - root - prediction completed successfully
